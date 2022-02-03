@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("https://i.ibb.co/cYCsT1P/pexels-thisisengineering-3861976.jpg");
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      color: white;
+    }
+    img {
+      margin: 20px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 10px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.ibb.co/6wf6S3B/pexels-cottonbro-5474037.jpg" width="175" height="250">
+    <h1>Lorenzo's Tech Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">My Projects</a></li>
+      <li><a href="#">My resources</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>What I have learned so far</h2>
+    <p>These DASH courses have been great! I have gotten the chance to expand my knowledge of HTML and CSS in order to build better website. The tips and tricks given have really helped me learn how I can work smarter and not harder, especially if I wanted to build a larger site with tons of lines of code!</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>What I still want to learn</h2>
+    <p>I want to learn how to build larger websites for companies that expect to have a lot of data that must be compiled.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Why I chose tech</h2>
+    <p>Tech is absolutley amazing! I love how I can use it for pretty much anything! If we want to have fun we an build our game! If we want to get down to business we have so many tools at our disposal to manage everything from finances to data and so much more!</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
