@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Kim's Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <style>
+    body {
+      text-align: center;
+      background: url("https://i.ibb.co/LdC5GK0/pexels-dominika-roseclay-1982485.jpg");
+      background-size: cover;
+      background-position: center;
+      background-color: lavender;
+      color: black;
+    }
+    h1 {
+      font-family: 'Abril Fatface', cursive;
+    }
+    p {
+      font-size: 25px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: purple;
+      color: white;
+    }
+    .round {
+      border-radius:75px;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.ibb.co/DrRrPYD/pexels-tim-douglas-6205509.jpg" class="round" width="400" height="500"/>
+  <h1> Kim's Bakery & Catering</h1>
+  <p>Need catering for your next event? Leave your email below and a member of our team will reach out shortly!</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
